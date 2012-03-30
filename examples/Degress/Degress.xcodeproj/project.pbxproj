@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CFBAB0151CF89800743F7D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 18CFBAAF151CF89800743F7D /* main.c */; };
+		18CFBAB2151CF89800743F7D /* Degress.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18CFBAB1151CF89800743F7D /* Degress.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18CFBAA9151CF89800743F7D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				18CFBAB2151CF89800743F7D /* Degress.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18CFBAAB151CF89800743F7D /* Degress */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Degress; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CFBAAF151CF89800743F7D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		18CFBAB1151CF89800743F7D /* Degress.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Degress.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CFBAA8151CF89800743F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CFBAA0151CF89700743F7D = {
+			isa = PBXGroup;
+			children = (
+				18CFBAAE151CF89800743F7D /* Degress */,
+				18CFBAAC151CF89800743F7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CFBAAC151CF89800743F7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CFBAAB151CF89800743F7D /* Degress */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CFBAAE151CF89800743F7D /* Degress */ = {
+			isa = PBXGroup;
+			children = (
+				18CFBAAF151CF89800743F7D /* main.c */,
+				18CFBAB1151CF89800743F7D /* Degress.1 */,
+			);
+			path = Degress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CFBAAA151CF89800743F7D /* Degress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CFBAB5151CF89800743F7D /* Build configuration list for PBXNativeTarget "Degress" */;
+			buildPhases = (
+				18CFBAA7151CF89800743F7D /* Sources */,
+				18CFBAA8151CF89800743F7D /* Frameworks */,
+				18CFBAA9151CF89800743F7D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Degress;
+			productName = Degress;
+			productReference = 18CFBAAB151CF89800743F7D /* Degress */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CFBAA2151CF89700743F7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 18CFBAA5151CF89700743F7D /* Build configuration list for PBXProject "Degress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18CFBAA0151CF89700743F7D;
+			productRefGroup = 18CFBAAC151CF89800743F7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CFBAAA151CF89800743F7D /* Degress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CFBAA7151CF89800743F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CFBAB0151CF89800743F7D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18CFBAB3151CF89800743F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18CFBAB4151CF89800743F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18CFBAB6151CF89800743F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18CFBAB7151CF89800743F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CFBAA5151CF89700743F7D /* Build configuration list for PBXProject "Degress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CFBAB3151CF89800743F7D /* Debug */,
+				18CFBAB4151CF89800743F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CFBAB5151CF89800743F7D /* Build configuration list for PBXNativeTarget "Degress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CFBAB6151CF89800743F7D /* Debug */,
+				18CFBAB7151CF89800743F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CFBAA2151CF89700743F7D /* Project object */;
+}

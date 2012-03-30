@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CFBAC8151CFB4400743F7D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 18CFBAC7151CFB4400743F7D /* main.c */; };
+		18CFBACA151CFB4400743F7D /* Triangule.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18CFBAC9151CFB4400743F7D /* Triangule.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18CFBAC1151CFB4400743F7D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				18CFBACA151CFB4400743F7D /* Triangule.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18CFBAC3151CFB4400743F7D /* Triangule */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Triangule; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CFBAC7151CFB4400743F7D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		18CFBAC9151CFB4400743F7D /* Triangule.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Triangule.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CFBAC0151CFB4400743F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CFBAB8151CFB4400743F7D = {
+			isa = PBXGroup;
+			children = (
+				18CFBAC6151CFB4400743F7D /* Triangule */,
+				18CFBAC4151CFB4400743F7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CFBAC4151CFB4400743F7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CFBAC3151CFB4400743F7D /* Triangule */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CFBAC6151CFB4400743F7D /* Triangule */ = {
+			isa = PBXGroup;
+			children = (
+				18CFBAC7151CFB4400743F7D /* main.c */,
+				18CFBAC9151CFB4400743F7D /* Triangule.1 */,
+			);
+			path = Triangule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CFBAC2151CFB4400743F7D /* Triangule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CFBACD151CFB4400743F7D /* Build configuration list for PBXNativeTarget "Triangule" */;
+			buildPhases = (
+				18CFBABF151CFB4400743F7D /* Sources */,
+				18CFBAC0151CFB4400743F7D /* Frameworks */,
+				18CFBAC1151CFB4400743F7D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Triangule;
+			productName = Triangule;
+			productReference = 18CFBAC3151CFB4400743F7D /* Triangule */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CFBABA151CFB4400743F7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 18CFBABD151CFB4400743F7D /* Build configuration list for PBXProject "Triangule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18CFBAB8151CFB4400743F7D;
+			productRefGroup = 18CFBAC4151CFB4400743F7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CFBAC2151CFB4400743F7D /* Triangule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CFBABF151CFB4400743F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CFBAC8151CFB4400743F7D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18CFBACB151CFB4400743F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18CFBACC151CFB4400743F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18CFBACE151CFB4400743F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18CFBACF151CFB4400743F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CFBABD151CFB4400743F7D /* Build configuration list for PBXProject "Triangule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CFBACB151CFB4400743F7D /* Debug */,
+				18CFBACC151CFB4400743F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CFBACD151CFB4400743F7D /* Build configuration list for PBXNativeTarget "Triangule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CFBACE151CFB4400743F7D /* Debug */,
+				18CFBACF151CFB4400743F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CFBABA151CFB4400743F7D /* Project object */;
+}
