@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18B2ADDC152556DF00133AEB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 18B2ADDB152556DF00133AEB /* main.c */; };
+		18B2ADDE152556DF00133AEB /* Challenge_8.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18B2ADDD152556DF00133AEB /* Challenge_8.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18B2ADD5152556DF00133AEB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				18B2ADDE152556DF00133AEB /* Challenge_8.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18B2ADD7152556DF00133AEB /* Challenge_8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Challenge_8; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B2ADDB152556DF00133AEB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		18B2ADDD152556DF00133AEB /* Challenge_8.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Challenge_8.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B2ADD4152556DF00133AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B2ADCC152556DF00133AEB = {
+			isa = PBXGroup;
+			children = (
+				18B2ADDA152556DF00133AEB /* Challenge_8 */,
+				18B2ADD8152556DF00133AEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B2ADD8152556DF00133AEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B2ADD7152556DF00133AEB /* Challenge_8 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B2ADDA152556DF00133AEB /* Challenge_8 */ = {
+			isa = PBXGroup;
+			children = (
+				18B2ADDB152556DF00133AEB /* main.c */,
+				18B2ADDD152556DF00133AEB /* Challenge_8.1 */,
+			);
+			path = Challenge_8;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B2ADD6152556DF00133AEB /* Challenge_8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B2ADE1152556DF00133AEB /* Build configuration list for PBXNativeTarget "Challenge_8" */;
+			buildPhases = (
+				18B2ADD3152556DF00133AEB /* Sources */,
+				18B2ADD4152556DF00133AEB /* Frameworks */,
+				18B2ADD5152556DF00133AEB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Challenge_8;
+			productName = Challenge_8;
+			productReference = 18B2ADD7152556DF00133AEB /* Challenge_8 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B2ADCE152556DF00133AEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 18B2ADD1152556DF00133AEB /* Build configuration list for PBXProject "Challenge_8" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18B2ADCC152556DF00133AEB;
+			productRefGroup = 18B2ADD8152556DF00133AEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B2ADD6152556DF00133AEB /* Challenge_8 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B2ADD3152556DF00133AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B2ADDC152556DF00133AEB /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18B2ADDF152556DF00133AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18B2ADE0152556DF00133AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18B2ADE2152556DF00133AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18B2ADE3152556DF00133AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B2ADD1152556DF00133AEB /* Build configuration list for PBXProject "Challenge_8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B2ADDF152556DF00133AEB /* Debug */,
+				18B2ADE0152556DF00133AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B2ADE1152556DF00133AEB /* Build configuration list for PBXNativeTarget "Challenge_8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B2ADE2152556DF00133AEB /* Debug */,
+				18B2ADE3152556DF00133AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B2ADCE152556DF00133AEB /* Project object */;
+}
