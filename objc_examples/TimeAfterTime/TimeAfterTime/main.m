@@ -17,6 +17,12 @@ int main (int argc, const char * argv[])
         NSLog(@"The new date lives at %p", now);
         NSLog(@"The new date is %@", now);
         
+        double seconds = [now timeIntervalSince1970];
+        NSLog(@"It has been %f seconds since 1970", seconds);
+        
+        NSDate *later = [now dateByAddingTimeInterval:1000000];
+        NSLog(@"In 100,000 seconds will be %@", later);
+        
     }
     return 0;
 }
