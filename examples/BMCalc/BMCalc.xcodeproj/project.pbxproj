@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18079905153111300087F0CD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 18079904153111300087F0CD /* main.c */; };
+		18079907153111300087F0CD /* BMCalc.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18079906153111300087F0CD /* BMCalc.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		180798FE153111300087F0CD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				18079907153111300087F0CD /* BMCalc.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18079900153111300087F0CD /* BMCalc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BMCalc; sourceTree = BUILT_PRODUCTS_DIR; };
+		18079904153111300087F0CD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		18079906153111300087F0CD /* BMCalc.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BMCalc.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180798FD153111300087F0CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180798F5153111300087F0CD = {
+			isa = PBXGroup;
+			children = (
+				18079903153111300087F0CD /* BMCalc */,
+				18079901153111300087F0CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18079901153111300087F0CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18079900153111300087F0CD /* BMCalc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18079903153111300087F0CD /* BMCalc */ = {
+			isa = PBXGroup;
+			children = (
+				18079904153111300087F0CD /* main.c */,
+				18079906153111300087F0CD /* BMCalc.1 */,
+			);
+			path = BMCalc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180798FF153111300087F0CD /* BMCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1807990A153111300087F0CD /* Build configuration list for PBXNativeTarget "BMCalc" */;
+			buildPhases = (
+				180798FC153111300087F0CD /* Sources */,
+				180798FD153111300087F0CD /* Frameworks */,
+				180798FE153111300087F0CD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BMCalc;
+			productName = BMCalc;
+			productReference = 18079900153111300087F0CD /* BMCalc */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180798F7153111300087F0CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 180798FA153111300087F0CD /* Build configuration list for PBXProject "BMCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 180798F5153111300087F0CD;
+			productRefGroup = 18079901153111300087F0CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180798FF153111300087F0CD /* BMCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180798FC153111300087F0CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18079905153111300087F0CD /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18079908153111300087F0CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18079909153111300087F0CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1807990B153111300087F0CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1807990C153111300087F0CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180798FA153111300087F0CD /* Build configuration list for PBXProject "BMCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18079908153111300087F0CD /* Debug */,
+				18079909153111300087F0CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1807990A153111300087F0CD /* Build configuration list for PBXNativeTarget "BMCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1807990B153111300087F0CD /* Debug */,
+				1807990C153111300087F0CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180798F7153111300087F0CD /* Project object */;
+}
