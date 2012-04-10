@@ -17,20 +17,13 @@ int main (int argc, const char * argv[])
         NSDate *tomorrow = [now dateByAddingTimeInterval:24.0 * 60.0 * 60.0];
         NSDate *yesterday = [now dateByAddingTimeInterval:-24.0 * 60.0 * 60.0];
         
-        NSArray *dateList = [NSArray arrayWithObjects: now, tomorrow, yesterday, nil];
+        NSMutableArray *dateList = [NSMutableArray array];
         
-        NSUInteger dateCount = [dateList count];
-        for(int i =0; i < dateCount; i++) {
-            NSDate *d = [dateList objectAtIndex:i];
-            NSLog(@"Here is a date: %@", d);
-        }
+        [dateList addObject:now];
+        [dateList addObject:tomorrow];
+        [dateList insertObject:yesterday atIndex:0];
         
-        for(NSDate *d in dateList) {
-            NSLog(@"Here is a date: %@", d);
-        }
-        NSLog(@"There are %lu dates", [dateList count]);
-        NSLog(@"1st date %@", [dateList objectAtIndex:0]);
-        
+        [dateList removeObject:0];
     }
     return 0;
 }
