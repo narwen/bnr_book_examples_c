@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186C7482154495B800CA77BC /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C7481154495B800CA77BC /* Asset.m */; };
 		1883B8A91540DA41003FACBC /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883B8A81540DA41003FACBC /* Employee.m */; };
 		18CD5ED8153B7F4700DA45F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CD5ED7153B7F4700DA45F9 /* Foundation.framework */; };
 		18CD5EDB153B7F4700DA45F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD5EDA153B7F4700DA45F9 /* main.m */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		186C7480154495B800CA77BC /* Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asset.h; sourceTree = "<group>"; };
+		186C7481154495B800CA77BC /* Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asset.m; sourceTree = "<group>"; };
 		1883B8A71540DA41003FACBC /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
 		1883B8A81540DA41003FACBC /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 		18CD5ED3153B7F4700DA45F9 /* BMITime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BMITime; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +61,8 @@
 				18CD5EEA153B7F9700DA45F9 /* Person.m */,
 				1883B8A71540DA41003FACBC /* Employee.h */,
 				1883B8A81540DA41003FACBC /* Employee.m */,
+				186C7480154495B800CA77BC /* Asset.h */,
+				186C7481154495B800CA77BC /* Asset.m */,
 				18CD5ED9153B7F4700DA45F9 /* BMITime */,
 				18CD5ED6153B7F4700DA45F9 /* Frameworks */,
 				18CD5ED4153B7F4700DA45F9 /* Products */,
@@ -151,6 +156,7 @@
 				18CD5EDB153B7F4700DA45F9 /* main.m in Sources */,
 				18CD5EEB153B7F9700DA45F9 /* Person.m in Sources */,
 				1883B8A91540DA41003FACBC /* Employee.m in Sources */,
+				186C7482154495B800CA77BC /* Asset.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
