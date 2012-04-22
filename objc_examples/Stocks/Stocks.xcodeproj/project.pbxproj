@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186C74761543A72E00CA77BC /* ForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C74751543A72E00CA77BC /* ForeignStockHolding.m */; };
 		18CD5EFD153BA98A00DA45F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CD5EFC153BA98A00DA45F9 /* Foundation.framework */; };
 		18CD5F00153BA98A00DA45F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD5EFF153BA98A00DA45F9 /* main.m */; };
 		18CD5F04153BA98A00DA45F9 /* Stocks.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18CD5F03153BA98A00DA45F9 /* Stocks.1 */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		186C74741543A72E00CA77BC /* ForeignStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForeignStockHolding.h; sourceTree = "<group>"; };
+		186C74751543A72E00CA77BC /* ForeignStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForeignStockHolding.m; sourceTree = "<group>"; };
 		18CD5EF8153BA98A00DA45F9 /* Stocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stocks; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CD5EFC153BA98A00DA45F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18CD5EFF153BA98A00DA45F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,6 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				18CD5F0A153BA9B300DA45F9 /* StockHolding.h */,
+				186C74741543A72E00CA77BC /* ForeignStockHolding.h */,
+				186C74751543A72E00CA77BC /* ForeignStockHolding.m */,
 				18CD5F0B153BA9B300DA45F9 /* StockHolding.m */,
 				18CD5EFE153BA98A00DA45F9 /* Stocks */,
 				18CD5EFB153BA98A00DA45F9 /* Frameworks */,
@@ -145,6 +150,7 @@
 			files = (
 				18CD5F00153BA98A00DA45F9 /* main.m in Sources */,
 				18CD5F0C153BA9B300DA45F9 /* StockHolding.m in Sources */,
+				186C74761543A72E00CA77BC /* ForeignStockHolding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +239,7 @@
 				18CD5F09153BA98A00DA45F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
