@@ -19,6 +19,7 @@
         assets = [[NSMutableArray alloc] init];
     }
     [assets addObject:a];
+    [a setHolder:self];
 }
 -(unsigned int)valueOfAssets
 {
@@ -39,9 +40,9 @@
     
     return [NSString stringWithFormat:@"<Employee %d: $%d in assets>", [self employeeID], [self valueOfAssets]];
 }
+
 -(void)dealloc
 {
-   
     NSLog(@"deallocating %@", self);
 }
 @end

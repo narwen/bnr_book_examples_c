@@ -19,6 +19,7 @@ int main (int argc, const char * argv[])
         
         for(int i=0; i<10; i++){
             Employee *person = [[Employee alloc] init];
+            
             [person setHeightInMeters:1.8 - i/10.0];        
             [person setWeightInKilos:90 + i];
             [person setEmployeeID:i];
@@ -45,5 +46,6 @@ int main (int argc, const char * argv[])
         NSLog(@"Giving up ownership of array");
         employees = nil;
     }
+    sleep(100);
     return 0;
 }
