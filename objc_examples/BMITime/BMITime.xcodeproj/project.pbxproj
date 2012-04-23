@@ -211,6 +211,7 @@
 		18CD5EE3153B7F4700DA45F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BMITime/BMITime-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -220,6 +221,7 @@
 		18CD5EE4153B7F4700DA45F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BMITime/BMITime-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
