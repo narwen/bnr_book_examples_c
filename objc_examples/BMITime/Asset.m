@@ -18,7 +18,7 @@
         return [NSString stringWithFormat:@"<%@: $%d, assigned to %@", [self label], [self resaleValue], [self holder]];
     }
     else {
-        return [NSString stringWithFormat:@"<%@: $%d >", [self label], [self resaleValue]];
+        return [NSString stringWithFormat:@"<%@: $%d unassigned>", [self label], [self resaleValue]];
     }
 }
 
