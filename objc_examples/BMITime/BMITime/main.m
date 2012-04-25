@@ -44,9 +44,9 @@ int main (int argc, const char * argv[])
             [allAssets addObject:asset];
         }
         
+        // Sorting
         NSSortDescriptor *voa = [NSSortDescriptor sortDescriptorWithKey:@"valueOfAssets" ascending:YES];
         NSSortDescriptor *ei  = [NSSortDescriptor sortDescriptorWithKey:@"employeeID" ascending:YES];
-        
         [employees sortUsingDescriptors:[NSArray arrayWithObjects:voa, ei, nil]];
          
         NSLog(@"Employees: %@", employees);
@@ -55,6 +55,11 @@ int main (int argc, const char * argv[])
         [employees removeObjectAtIndex:5];
         
         NSLog(@"allAssets: %@", allAssets);
+        
+        // Filtering 
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"holder.valueOfAssets > 70"];
+        NSArray *toBeReclaimed = [allAssets filteredArrayUsingPredicate:    predicate];
+        NSLog(@"To be reclaimed: %@", toBeReclaimed);
         
         NSLog(@"Giving up ownership of array");
         allAssets = nil;
