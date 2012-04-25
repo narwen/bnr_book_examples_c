@@ -44,6 +44,11 @@ int main (int argc, const char * argv[])
             [allAssets addObject:asset];
         }
         
+        NSSortDescriptor *voa = [NSSortDescriptor sortDescriptorWithKey:@"valueOfAssets" ascending:YES];
+        NSSortDescriptor *ei  = [NSSortDescriptor sortDescriptorWithKey:@"employeeID" ascending:YES];
+        
+        [employees sortUsingDescriptors:[NSArray arrayWithObjects:voa, ei, nil]];
+         
         NSLog(@"Employees: %@", employees);
         
         NSLog(@"Giving up ownership of one employee");
