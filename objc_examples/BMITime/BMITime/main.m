@@ -15,6 +15,7 @@ int main (int argc, const char * argv[])
 
     @autoreleasepool {
         
+        NSMutableDictionary *executives = [[NSMutableDictionary alloc] init];
         NSMutableArray *employees = [[NSMutableArray alloc] init];
         
         for(int i=0; i<10; i++){
@@ -26,6 +27,12 @@ int main (int argc, const char * argv[])
             
             [employees addObject:person];
             
+            if (i==0){
+                [executives setObject:person forKey:@"CEO"];
+            }
+            else if(i ==1){
+                [executives setObject:person forKey:@"CTO"];
+            }
         }
         NSMutableArray *allAssets = [[NSMutableArray alloc] init];
         
@@ -55,6 +62,9 @@ int main (int argc, const char * argv[])
         [employees removeObjectAtIndex:5];
         
         NSLog(@"allAssets: %@", allAssets);
+        
+        NSLog(@"executives %@", executives);
+        executives = nil;
         
         // Filtering 
         NSPredicate *predicate = [NSPredicate predicateWithFormat:@"holder.valueOfAssets > 70"];
